@@ -1,0 +1,90 @@
+.container {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.div1 {
+    float:left;
+    width:98%;
+    height:100px;
+    outline: 1px solid red;
+}
+
+.div2 {
+    float: left;
+    width: 33%;
+    height: 300px;
+    outline: 1px solid olive;
+}
+
+.div3 {
+    float: left;
+    width: 65%;
+    height: 150px;
+    outline: 1px solid green;
+}
+.div4 {
+    float:left;
+    width: 65%;
+    height: 150px;
+    outline: 1px solid maroon;
+
+}
+
+.div5 {
+    float: left;
+    width: 98%;
+    height: 100px;
+    outline: 1px solid purple;
+
+}
+
+/* sample2.html */
+
+header {
+    padding:0px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+nav{
+    text-align: center;
+    background-color: orange;
+    height:30px;
+}
+
+ul li{ 
+    display: inline;
+    padding-left:10px;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+article{
+    padding:10px;
+    border: dotted 3px red;
+    margin-top: 5px;
+}
+aside{
+    padding: 5px;
+    border: double 5px pink;
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+    background-color: aqua;
+
+}
+
+section{
+    padding: 5px;
+    margin-top: 5px;
+    border:dashed 5px blue;
+
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}

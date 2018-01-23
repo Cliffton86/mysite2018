@@ -1,0 +1,26 @@
+h1 {
+font-family: "Courier";
+Font-weight: bold;
+}
+
+strong {
+    text-shadow: 5px 5px 5px gold
+}
+
+span { 
+    font-weight: bold;
+    font-style:italic;
+    color: red
+}
+
+.writer {
+        font: size 10;
+        font-style: italics;
+        color: red;
+        
+    }
+
+    .content {
+        font size: 15cm;
+        font family: "times new roman"; 
+    }
