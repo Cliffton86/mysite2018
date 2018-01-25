@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <body>
+        <script language="javascript" type+ "text/javascript">
+            // javascript code
+
+            //document.write("<h1>Hello world!!!<h1>");
+            // variable declaration
+            var firstname = "Frank";
+            var lastname = "Tay";
+            var fullname = "";
+            var a = 10;
+            var b = 20;
+            var result = 0;
+
+            // steps or task carried out
+            function sumTwoValue() {
+                result = a + b;
+                alert("result of a + b:" + result);
+            }
+
+            function contactname() {
+                fullname = firstname + "" + lastname;
+                alert("full name:" + fullname);
+            }
+
+            function computesum() {
+               var first = document.getElementById("FirstNumber").value;
+               var second = document.getElementById("SecondNumber").value;
+                var f = parseInt(first);
+                var s = parseInt (second);
+
+               var rslt= sumValues (f, s);
+               alert(rslt);
+
+            }
+
+            function sumValues (a,b) {
+                var resultSum= a +b ;
+               // alert (resultsum);
+               return resultSum;
+
+            }
+
+
+                   // alert("result:" + result + "\r\n" +"fullname:"+ fullname);
+
+
+                    // console.log("Name:"+ fullname);
+        </script> 
+        
+        Enter Number One
+        <input type="number" id="FirstNumber" />
+        <br>
+        <br> 
+        Enter Number Two
+        <input type="number" id="SecondNumber" />
+        <br>
+        <br>
+        <input type="button" onclick="computesum() " value="Sum Input Value" />
+        <br>
+        <br>
+        <input type="button" onclick="sumTwoValue()" value="Sum Two Value" />
+        <br>
+        <br>
+        <input type="button" onclick="contactname ()" value="show Full Name" />
+    </body>
+</head>
+
+</html>

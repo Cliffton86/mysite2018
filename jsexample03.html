@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+        
+<head>
+        <script lang="javascript" type="text/javascript">
+
+            function autorefresh (t) {
+                setTimeout("location.reload(true);",t);
+            }
+
+            function redirectPage(){
+                window.location="http://www.microsoft.com";
+            }
+        </script>
+</head>
+
+
+<body onload ="javascript:redirectPage();">
+    <script lang="javascript" type="text/javascript">
+        var employee = {
+            name: "James",
+            email: "james@cook.com",
+            tel: "9999999"
+        }
+        var employeelist = [
+            {
+                name: "James",
+                email: "james@cook.com",
+                tel: "99999999"
+            },
+            {
+                name: "Mark",
+                email: "Marks@cook.com",
+                tel: "88888888"
+            },
+            {
+                name: "Lee",
+                email: "Lee@cook.com",
+                tel: "77777777"
+            }
+        ]
+
+        document.write("Size of employeelist:" + employeelist.length);
+        document.write("<br>");
+        document.write("<table border=2 width=80% align=center>");
+              /*  document.write("<thead>");
+                document.write("<tr>");
+            document.write("<th>" + employeelist[i].name + "</th>");
+            document.write("<th>" + employeelist[i].email + "</th>");
+            document.write("<th>" + employeelist[i].tel + "</th>");
+            document.write("</thead>");*/
+        for (var i = 0; i < employeelist.length; i++) {
+            document.write("<tr>");
+            document.write("<td>" + employeelist[i].name + "</td>");
+            document.write("<td>" + employeelist[i].email + "</td>");
+            document.write("<td>" + employeelist[i].tel + "</td>");
+            document.write("<td>");
+        }
+        document.write("</table>");
+
+    </script>
+    <a href="javascript:location.reload(true)">Refresh Page</a>
+</body>
+
+</html>
