@@ -1,0 +1,163 @@
+body {
+    background: rgb(235, 229, 203);
+}
+
+.background {
+    width: 300px;
+    height: 400px;
+    background: gray;
+    margin: 50px auto;
+
+}
+
+button {
+    border:0;
+    color:white;
+}
+
+#result {
+    display: block;
+    font-family: sans-serif;
+    width: 250px;
+    height: 40px;
+    margin: 10px  auto;
+    background:#3bbbbb;
+    text-align:right; 
+    color: white;
+    border: 10px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    position: relative;
+    top:5px;
+    padding-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+#result: hover {
+    cursor:text;
+
+}
+
+#first-rows {
+    margin-bottom:20px;          /*seprate top and bottoom box */
+    position: relative;
+    top:10px;                    /*Due with the text, separate the text from top of the box */
+
+
+} 
+
+.rows {
+    width:300px;                    /*base on the.background width so 300px, each div tab got  element */
+    margin-top: 10px;
+
+}
+
+#delete {                    /*To style the element within the div tab */
+    width :100px;
+    height:50px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.btn-style {
+    width: 50px;
+    height:50px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.first-child {
+    margin-left: 25px;  /* to align the first button to be same margin as the delet button*/
+
+}
+
+.num-bg {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333 ;
+}
+
+.num-bg:active {                          /* click the button to style* no spacing*/
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px cyan;             /* inner effect when click on button*/
+}
+
+.opera-bg {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333 ;
+
+}
+
+.opera-bg:active {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333;
+    box-shadow: inset 5px 5px 5px cyan;
+}
+
+.del-bg {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333 ;
+
+}
+
+.del-bg:active {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333;
+    box-shadow: inset 5px 5px 5px cyan;
+}
+
+.eqn-bg {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333 ;
+
+}
+
+.eqn-bg:active {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 3px solid #333;
+    box-shadow: inset 5px 5px 5px cyan;
+}
+
+.align {        /* align add and equal button to the right*/
+margin-left: 9px !important;  /* !important means for giving priority to align it*/
+
+}
+
+.fallback {
+    margin-left:17px !important;
+
+}
